@@ -9,8 +9,12 @@ function numTriggered(val) {
 }
 
 function sendNumberToPager() {
-  pagerNumber.textContent = phoneNumber;
-  document.getElementById("pager-number").textContent = phoneNumber;
+  const send = new Audio("retro-game-effect.wav");
+  setTimeout(() => {
+    pagerNumber.textContent = phoneNumber;
+    document.getElementById("pager-number").textContent = phoneNumber;
+    send.play();
+  }, 1000);
 }
 
 function reset() {
