@@ -1,0 +1,160 @@
+/*
+COLOR PALETTE
+
+PAGER BACKGROUND: #283033
+PAGER DISPLAY: #9EC4B3
+PAGER DISPLAY TEXT COLOR: #000000
+
+PHONE BACKGROUND: #D9D9D9
+PHONE DISPLAY: #9EC4B3
+PHONE DISPLAY TEXT COLOR: #F8F8F8
+PHONE KEY: #F8F8F8
+
+RESET AND SEND BUTTON BORDER COLOR: #0B0B0B
+
+RESET BUTTON BACKGROUND: #BE482A
+RESET BUTTON TEXT COLOR: #F8F8F8
+
+SEND BUTTON BACKGROUND: #3D9C7C
+SEND BUTTON TEXT COLOR: #0B0B0B
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+  background: #f8f8f8;
+  height: 100vh;
+}
+
+.pager-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: 10px auto;
+  background: #283033;
+}
+.pager {
+  background: #283033;
+
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+}
+
+.title {
+  color: #f8f8f8;
+}
+
+.number {
+  background: #9ec4b3;
+  color: #000000;
+  width: 500px;
+  text-align: center;
+  overflow: auto;
+  padding: 40px 5px;
+  width: 500px;
+  margin: 15px auto;
+  font-size: 2rem;
+  min-height: 40px;
+  overflow: auto;
+  margin: 20px 0;
+
+  /* width: 700px; */
+  /* padding: 50px 10px; */
+  /* margin: 5px 0 25px 0; */
+  /* padding: 20px; */
+}
+
+.phone-container {
+  max-width: 700px;
+  /* height: 516px; */
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background: #d9d9d9;
+
+  /* min-width: 794px;
+  margin: 10px auto; */
+}
+
+.phone-title {
+  color: #000;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.phone-num {
+  color: #f8f8f8;
+  background: #444444;
+  padding: 40px 5px;
+  text-align: center;
+  width: 500px;
+  margin: 15px auto;
+  font-size: 2rem;
+  min-height: 40px;
+  overflow: auto;
+}
+.num-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.num-btn {
+  width: 120px;
+  height: 55px;
+  color: #000000;
+  background: hsl(0, 0%, 97%);
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  /* width: 200px; */
+  /* margin: 15px 10px 10px 0px; */
+  /* border: none; */
+  /* padding: 5px; */
+  font-size: 2rem;
+  border: 1px solid black;
+  font-family: "Press Start 2P";
+}
+
+.btn {
+  width: 100%;
+  /* max-width: 750px; */
+  border: 1px solid #0b0b0b;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5px 0px;
+  padding: 20px;
+  /* height: 40px; */
+  font-family: "Press Start 2P";
+}
+
+.reset {
+  color: #f8f8f8;
+  background: #be482a;
+  /* height: 100px; */
+}
+
+.send {
+  color: #000000;
+  background: #3d9c7c;
+}

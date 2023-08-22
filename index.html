@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="pager-container">
+      <!-- <div class="pager"> -->
+      <h1 class="title">Pager</h1>
+
+      <h3 class="number" id="pager-number"></h3>
+      <!-- </div> -->
+    </div>
+
+    <div class="phone-container">
+      <div class="phone">
+        <h1 class="phone-title">Phone</h1>
+
+        <h3 class="phone-num" id="phone-number"></h3>
+
+        <div class="num-pad">
+          <button class="num-btn" onclick="numTriggered('1')">1</button>
+          <button class="num-btn" onclick="numTriggered('2')">2</button>
+          <button class="num-btn" onclick="numTriggered('3')">3</button>
+          <button class="num-btn" onclick="numTriggered('4')">4</button>
+          <button class="num-btn" onclick="numTriggered('5')">5</button>
+          <button class="num-btn" onclick="numTriggered('6')">6</button>
+          <button class="num-btn" onclick="numTriggered('7')">7</button>
+          <button class="num-btn" onclick="numTriggered('8')">8</button>
+          <button class="num-btn" onclick="numTriggered('9')">9</button>
+          <button class="num-btn" onclick="numTriggered('*')">*</button>
+          <button class="num-btn" onclick="numTriggered('0')">0</button>
+          <button class="num-btn" onclick="numTriggered('#')">#</button>
+        </div>
+        <button class="btn reset" onclick="reset()">Reset</button>
+        <button class="btn send" onclick="sendNumberToPager()">Send</button>
+      </div>
+    </div>
+  </body>
+</html>
